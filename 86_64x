@@ -1,0 +1,3 @@
+print ("monke lik to kode")
+print ("monke want your age")
+input (int())
