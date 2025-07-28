@@ -1,3 +1,24 @@
-print ("monke lik to kode")
-print ("monke want your age")
-input (int())
+# A somewhat dumb script written by a 14 year old.
+
+
+
+			#ENTER YOUR AGE!!!
+
+
+
+print("monke lik to kode")
+
+try:
+	age = int(input("monke want your age:\n"))  # Ask user for age and convert input to integer
+	if age < 18:
+		print("Bros a minor")
+	if age == 3729475829:
+		print("cheat code unlocked")
+	elif age >= 18 and age <= 65:  
+		print ("ok, ur an adult.")
+	elif age > 150:
+		print ("your a fossil. and probably dead.")
+	else:
+		print("UNC")
+except ValueError:
+	print("monke no understand, plz enter a number")
